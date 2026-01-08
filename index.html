@@ -231,7 +231,7 @@
                 setTimeout(() => { toast.className = ""; }, 3000);
                 return;
             }
-            const nameToDisplay = nameInput.toLowerCase().includes("king") ? nameInput : "King " + nameInput;
+            const nameToDisplay = nameInput.toLowerCase().includes("") ? nameInput : "King " + nameInput;
             document.getElementById('login-screen').style.display = 'none';
             document.getElementById('main-content').style.display = 'flex';
             document.getElementById('main-footer').style.display = 'block';
